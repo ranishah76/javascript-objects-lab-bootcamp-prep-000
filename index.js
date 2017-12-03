@@ -4,8 +4,10 @@ var recipes = {
   ingredient3: "tomato"
 }
 
+
+
 function updateObjectWithKeyAndValue (object, key, value) {
- return object.assign ({}, object, {[key]: value})
+ return Object.assign ({}, object, {[key]: value})
 }
 
 function deleteFromObjectByKey (object, key) {
